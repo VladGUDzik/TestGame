@@ -10,8 +10,9 @@ namespace Bonus
             if (!player.TryGetComponent(out PlayerMovementController component)) return;
             gameObject.SetActive(true);
            
-            var transform1 = transform;
-            Instantiate(component.trap.gameObject, transform1.position, transform1.rotation);
+            var transform1 = component.gameObject.transform.position;
+            transform1.x += 1.97f;
+            Instantiate(component.trap.gameObject, transform1, transform.rotation);
 
         }
     }
