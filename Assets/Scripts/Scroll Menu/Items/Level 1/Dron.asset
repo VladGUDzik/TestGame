@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e9e88516b2d0d94f92a8f9fe9acb86b, type: 3}
+  m_Name: Dron
+  m_EditorClassIdentifier: 
+  <icon>k__BackingField: {fileID: 21300000, guid: 9e382a4a67e59d34f8b5951022e99d90, type: 3}
+  <price>k__BackingField: 3
+  <bonus>k__BackingField: {fileID: 8008264075772098030, guid: 9dc099275521497478d96b345a3ee5c5, type: 3}
