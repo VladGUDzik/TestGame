@@ -17,7 +17,7 @@ namespace Player
 
         public override void Activate(GameObject player)
         {
-            if (player.GetComponent<PlayerMovementController>())
+            if (GetComponent<PlayerMovementController>())
             {
                Player.autoWeaponController.gameObject.SetActive(true);
             }

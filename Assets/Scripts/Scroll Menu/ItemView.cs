@@ -15,7 +15,6 @@ namespace Scroll_Menu
         [SerializeField] private Color boughtButtonColor;
 
         private Item _item;
-        
 
         private void OnEnable()
         {
@@ -37,6 +36,7 @@ namespace Scroll_Menu
         
         private void BuyItem()
         {
+            button.interactable = false;
             _item.bonus.Awake();
         }
 

@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Bonus
 {
-    public class Trap : Bonus
+    public class Trap : MonoBehaviour
     {
         [SerializeField] protected float damageSpikes;
         [SerializeField] private Vector2 angle;
@@ -52,14 +52,5 @@ namespace Bonus
             }
         }
         
-        public override void Activate(GameObject player)
-        {
-            //if (!player.TryGetComponent(out PlayerMovementController component)) return;
-            //  Player.trap.gameObject.SetActive(true);
-           
-            var transform1 = transform;
-            Instantiate(Player.trap.gameObject, transform1.position, transform1.rotation);
-
-        }
     }
 }
